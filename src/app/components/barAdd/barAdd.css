@@ -1,0 +1,38 @@
+.containerBarAdd {
+  height: 8vh;
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerBarAdd input {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 70%;
+  border: 1px solid #bdbdbd;
+  box-sizing: border-box;
+  border-radius: 12px;
+  font-family: sans-serif;
+  padding-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+.containerBarAdd button {
+  border: none;
+  cursor: pointer;
+  background: #2f80ed;
+  height: 100%;
+  width: 20%;
+  box-shadow: 0px 2px 6px rgba(127, 177, 243, 0.4);
+  border-radius: 12px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}

@@ -1,0 +1,64 @@
+.containerHeader {
+  height: 30vh;
+  width: 50vw;
+}
+.containerHeaderTitle {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerHeaderTitle h1 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: -0.045em;
+  color: #333333;
+}
+.containerHeaderBar {
+  height: 15%;
+  width: 100%;
+  border-bottom: 1px solid #bdbdbd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.containerHeaderBar__item {
+  height: 100%;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerHeaderBar__item a {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 17px;
+  color: #333333;
+}
+.containerHeaderBar__item::after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: #2f80ed;
+  border-radius: 4px 4px 0px 0px;
+  transition: all 300ms ease-in-out 0s;
+  width: 0%;
+}
+.all.containerHeaderBar__item::after {
+  width: 100%;
+}
+.active.containerHeaderBar__item::after {
+  width: 100%;
+}
+.completed.containerHeaderBar__item::after {
+  width: 100%;
+}
