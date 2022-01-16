@@ -8,7 +8,7 @@ import "./taskCompleted.css";
 export const TaskCompleted = () => {
   const { task, setTask } = useContext(taskContext);
   const deleteAllTask = () => {
-    setTask([]);
+    setTask(task.filter((item) => item.isCompleted !== true));
   };
   return (
     <div className="container">
